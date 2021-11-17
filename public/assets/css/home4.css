@@ -1,0 +1,134 @@
+
+/************************************************************************************************
+ SHORT CODE CONTENT SLIDER BRAND
+ *************************************************************************************************/
+.top-brand.arrow-default {
+  padding: 15px;
+  direction: ltr;
+  padding: 14px 20px;
+  background: #fff;
+  border-radius: 0 0 3px 3px; }
+  .top-brand.arrow-default img {
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    opacity: 0.3;
+    cursor: pointer; }
+  .top-brand.arrow-default img:hover {
+    opacity: 1;
+    visibility: visible; }
+  .top-brand.arrow-default .owl2-nav div {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% !important;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.3s all ease 0s;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    background: #ccc; }
+  .top-brand.arrow-default .owl2-nav div:hover {
+    background: #ff5e00;
+    color: #fff; }
+  .top-brand.arrow-default .owl2-nav div:before {
+    display: inline-block;
+    font-family: fontawesome; }
+  .top-brand.arrow-default .owl2-nav div.owl2-prev {
+    left: 16px;
+    opacity: 1; }
+  .top-brand.arrow-default .owl2-nav div.owl2-next {
+    right: 16px;
+    opacity: 1; }
+
+@media (min-width: 1200px) {
+  .top-brand.arrow-default {
+    padding: 14px 45px; } }
+
+.custom-scoll {
+  display: none;
+  top: 50px !important;
+  position: fixed;
+  z-index: 99;
+  transition: 0.6s all ease 0s;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.1); }
+  .custom-scoll .scoll-cate {
+    border-radius: 3px; }
+  .custom-scoll .scoll-cate li {
+    width: 40px;
+    height: 40px;
+    display: block;
+    font-size: 0;
+    background: #fff url("../../image/icon/cat1.png") no-repeat center;
+    cursor: pointer;
+    transition: 0.3s all ease 0s;
+    -webkit-transition: 0.3s all ease 0s;
+    position: relative; }
+  .custom-scoll .scoll-cate li a {
+    display: block;
+    width: 40px;
+    height: 40px; }
+  .custom-scoll .scoll-cate li:hover {
+    width: auto;
+    background-color: #ff5e00; }
+  .custom-scoll .scoll-cate li:hover span {
+    opacity: 1;
+    width: auto; }
+  .custom-scoll .scoll-cate li.active {
+    background-color: #ff5e00; }
+  .custom-scoll .scoll-cate li span {
+    transition: 0.3s all ease 0s;
+    -webkit-transition: 0.3s all ease 0s;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    padding: 10px 10px;
+    line-height: 20px;
+    background-color: #ff5e00;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    color: #fff;
+    width: auto;
+    font-size: 14px;
+    text-transform: capitalize;
+    left: 100%; }
+  .custom-scoll .scoll-cate li.neo1 {
+    background-position: -3px -7px; }
+  .custom-scoll .scoll-cate li.neo1:hover, .custom-scoll .scoll-cate li.neo1.active {
+    background-position: -49px -8px; }
+  .custom-scoll .scoll-cate li.neo2 {
+    background-position: -3px -42px; }
+  .custom-scoll .scoll-cate li.neo2:hover, .custom-scoll .scoll-cate li.neo2.active {
+    background-color: #e9597e;
+    background-position: -49px -42px; }
+    .custom-scoll .scoll-cate li.neo2:hover span, .custom-scoll .scoll-cate li.neo2.active span {
+      background-color: #e9597e; }
+  .custom-scoll .scoll-cate li.neo3 {
+    background-position: -3px -79px; }
+  .custom-scoll .scoll-cate li.neo3:hover, .custom-scoll .scoll-cate li.neo3.active {
+    background-color: #e8b35f;
+    background-position: -49px -79px; }
+    .custom-scoll .scoll-cate li.neo3:hover span, .custom-scoll .scoll-cate li.neo3.active span {
+      background-color: #e8b35f; }
+  .custom-scoll .scoll-cate li.neo4 {
+    background-position: -3px -111px; }
+  .custom-scoll .scoll-cate li.neo4:hover, .custom-scoll .scoll-cate li.neo4.active {
+    background-color: #449df0;
+    background-position: -49px -111px; }
+    .custom-scoll .scoll-cate li.neo4:hover span, .custom-scoll .scoll-cate li.neo4.active span {
+      background-color: #449df0; }
+  .custom-scoll .scoll-cate li.neo5 {
+    background-position: -3px -148px; }
+  .custom-scoll .scoll-cate li.neo5:hover, .custom-scoll .scoll-cate li.neo5.active {
+    background-color: #407f7f;
+    background-position: -49px -148px; }
+    .custom-scoll .scoll-cate li.neo5:hover span, .custom-scoll .scoll-cate li.neo5.active span {
+      background-color: #407f7f; }
+/*============MODULE BREADCRUMB ==================*/
+

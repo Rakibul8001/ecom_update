@@ -1,0 +1,106 @@
+.header-form {
+    position: fixed;
+    top: 160px;
+    margin: 0;
+    z-index: 11;
+    right: 0;
+    left: auto;
+}
+.header-form .button-header{
+    text-align: center;
+    width: 40px;
+    border-radius: 3px 0 0 3px;
+    background: #ff5e00;
+    cursor: pointer;
+    line-height: 40px;
+    color: #fff;
+    position: relative;
+}
+
+.header-form .dropdown-form {
+    position: absolute;
+    z-index: 3;
+    background: #fff;
+    top: 0px;
+    display: none;
+    width: 200px;
+    padding: 15px 20px 12px;
+    -moz-box-shadow: 0 1px 4px 0 #c1c1c1;
+    -webkit-box-shadow: 0 1px 4px 0 #c1c1c1;
+    box-shadow: 0 1px 4px 0 #c1c1c1;
+    border-radius: 3px;
+    right: 60px;
+    left: auto;
+}
+
+.pull-left {
+    float: left!important;
+}
+
+.dropdown-menu {
+    position: relative;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    border: none;
+    box-shadow: none;
+    margin: 5px 0 0;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px /1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header-form .dropdown-form .dropdown-menu li {
+    line-height: 35px;
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    padding: 0 8px;
+    margin: 0 1px 7px 0;
+    min-width: 65px;
+}
+
+.header-form .button-user {
+    position: fixed;
+    top: 210px;
+    margin: 0;
+    z-index: 10;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+    float: none;
+    overflow: hidden;
+    right: 0;
+}
+
+.header-form .button-user .user-info a {
+    position: relative;
+    display: block;
+    text-indent: -999px;
+    background: #ff5e00;
+}
+
+
+.header-form .button-user .user-info a:before {
+    content: '';
+    background: url(../../image/icon/icon-full.png) no-repeat center;
+    background-position: -79px -296px;
+    width: 23px;
+    height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    left: 8px;
+    bottom: 0;
+}
+
+a, a:visited, a:active, a:link, a:focus {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
